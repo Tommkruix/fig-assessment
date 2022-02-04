@@ -1,0 +1,5 @@
+{
+  "db": "mongodb://localhost/fig",
+  "domain": "http://localhost:4000",
+  "port": 4000
+}
