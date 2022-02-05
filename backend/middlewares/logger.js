@@ -19,7 +19,7 @@ const logger = winston.createLogger({
   transports: [
     new winston.transports.File({ filename: "error.log", level: "error" }),
     new winston.transports.File({ filename: "logfile.log" }),
-    //new winston.transports.MongoDB({ db: "mongodb://localhost/allpac" }),
+    //new winston.transports.MongoDB({ db: "mongodb://localhost/" }),
   ],
   exceptionHandlers: [
     new winston.transports.Console({ colorize: true, prettyPrint: true }),

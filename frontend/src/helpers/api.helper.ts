@@ -1,7 +1,7 @@
 import urlHelper from './url.helper';
 
 class ApiHelper {
-  apiUrl = 'http://localhost:4000/api/v1';
+  apiUrl = `${process.env.REACT_APP_FIG_API}`;
 
   fetchEvents = async () => urlHelper.getAsync(
     `${this.apiUrl}/events`,

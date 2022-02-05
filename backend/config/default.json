@@ -1,5 +1,5 @@
 {
-  "db": "mongodb+srv://fig-user-db:figpassword@cluster0.2l1ut.mongodb.net/fig-db?retryWrites=true&w=majority",
+  "db": "",
   "domain": "http://localhost:4000",
   "port": 4000
 }

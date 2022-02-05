@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
-const figDb = require("../config/default.json");
+// const figDb = require("../config/default.json"); // remove comment if using config
 
 module.exports = function () {
-  const db = figDb.db;
+  const db = `${process.env.FIG_DB}`;
   mongoose
     .connect(db, {
       useNewUrlParser: true,

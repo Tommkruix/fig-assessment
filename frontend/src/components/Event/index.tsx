@@ -15,7 +15,7 @@ const Container = styled.div`
   margin: auto;
 `;
 
-const ProductListItems = styled.div`
+const EventListItems = styled.div`
   display: flex;
   flex-wrap: wrap;
   height: 100%
@@ -45,12 +45,11 @@ const EventPage: React.FC<AllProps> = ({
 
   return (
     <Container>
-      {/* <Navbar /> */}
-      <ProductListItems>
+      <EventListItems>
         {data.map(item => {
           return <EventItem item={item} />;
         })}
-      </ProductListItems>
+      </EventListItems>
     </Container>
   );
 };

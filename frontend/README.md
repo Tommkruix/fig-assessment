@@ -4,8 +4,12 @@
 ## Setup
 
 ```
-npm install
+- Download and install ReactJS and TypeScript.
 
-npm run start
+- Rename `.env.sample` to `.env`.
+
+- npm install
+
+- npm run start
 
 ```

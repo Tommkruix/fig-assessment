@@ -4,9 +4,13 @@
 ## Setup
 
 ```
-npm install
+- Download and install NodeJS 
 
-npm run start
+- (MacOS) export the database url into your environment variables `export FIG_DB=mongodb+srv://fig-user-db:figpassword@cluster0.2l1ut.mongodb.net/fig-db?retryWrites=true&w=majority`. Professionally, should be store in AWS Secret Manager.
+
+- Run `npm install`
+
+- Run `npm run start` or install nodemon and run `noodemon`
 
 ```
 
